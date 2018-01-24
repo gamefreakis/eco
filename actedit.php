@@ -5,7 +5,7 @@ include_once("dbconnect.php");
 
 if(isset($_POST['edit'])){
     
-$id=$_POST['id'];
+$id=$_POST ['id'];
 $categoryid=$_POST['categoryid'];
 $name=$_POST['name'];
 $manufacturer=$_POST['manufacturer'];
