@@ -22,7 +22,7 @@ if(!$query)
 }
     else {
         
-        echo"The product was edited successfuly";
+        echo"The  product was edited successfuly";
     }
 }
 
