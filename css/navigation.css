@@ -1,0 +1,42 @@
+#navlist
+{
+color: white;
+background: black;
+
+padding: 0px;
+margin-left: 710;
+
+list-style-type:none;
+font: normal 1.2em Verdana, sans-serif;
+
+}
+
+#navlist li
+{
+display: inline;
+float:left;
+}
+
+#navlist li a
+{
+display: block;
+text-decoration: none;
+color: white;
+background: #8ce78a;
+padding: 1em;
+}
+
+
+#navlist a:hover, #navlist a#current:hover
+{
+background: black;
+border-color: #069 #6cf #5bd #fc0;
+
+}
+
+#navlist a:active, #navlist a#current:active
+{
+background: black;
+
+}
+
